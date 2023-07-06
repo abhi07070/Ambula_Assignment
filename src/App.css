@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #101728;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TodoWrapper {
+  background: #1A1A40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.TodoForm {
+  width: 100%;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  /* width: 100%; */
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #fff;
+  color: #101728;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+header .logo h1 {
+  font-size: 1.5rem;
+}
+
+header .links {
+  display: flex;
+  gap: 2rem;
+}
+
+header .links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* HOME */
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 5rem;
+}
+
+.section1 .detail {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.section1 h2 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: .2px;
+  font-weight: lighter;
+  /* margin-bottom: 1rem; */
+}
+
+.section1 p {
+  text-align: center;
+  color: #fff;
+  letter-spacing: .2px;
+  font-style: italic;
+}
+
+/* SHOPPING */
+.shopping {
+  text-align: center;
+}
+
+.shopping span {
+  color: #fff;
+  font-size: large;
+}
+
+.shopping a {
+  text-decoration: none;
+  font-weight: 900;
+  color: #fff;
+  background: #1A1A40;
+  padding: .4rem;
+  letter-spacing: 2px;
+}
+
+/* CARTDETAILS */
+img {
+  height: 80px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.productsWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: #764abc;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #513282;
+}
+
+.heading {
+  padding: 25px 0;
+}
+
+.cartCount {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+.cartCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 14px;
+  border-radius: 5px;
+}
