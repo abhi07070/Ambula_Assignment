@@ -1,7 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Header';
-import { TodoWrapper } from './components/ToDoList/TodoWrapper';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
@@ -15,35 +14,35 @@ function App() {
     <>
 
       <Routes>
-        <Route path='/'
+        <Route path='/Ambula_Assignment/'
           element={
             <>
               <Header />
               <Home />
             </>}
         />
-        <Route path='/about'
+        <Route path='/Ambula_Assignment/about'
           element={
             <>
               <Header />
               <About />
             </>}
         />
-        <Route path='/contact'
+        <Route path='/Ambula_Assignment/contact'
           element={
             <>
               <Header />
               <Contact />
             </>}
         />
-        <Route path='/cartDetail'
+        <Route path='/Ambula_Assignment/cartDetail'
           element={
             <>
               <CardHeader />
               <CartDeatil />
             </>}
         />
-        <Route path='/cart'
+        <Route path='/Ambula_Assignment/cart'
           element={
             <>
               <CardHeader />

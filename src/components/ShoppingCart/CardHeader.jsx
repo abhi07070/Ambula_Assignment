@@ -8,11 +8,11 @@ const CardHeader = () => {
   return (
     <header>
       <div className='homeLink'>
-        <Link to='/'>Back to home</Link>
+        <Link to='/Ambula_Assignment/'>Back to home</Link>
       </div>
       <div className='links'>
-        <Link to='/cartDetail'>Home</Link>
-        <Link to='/cart'>Cart</Link>
+        <Link to='/Ambula_Assignment/cartDetail'>Home</Link>
+        <Link to='/Ambula_Assignment/cart'>Cart</Link>
         <Link>items: {cartItems.length}</Link>
       </div>
     </header>
