@@ -10,7 +10,7 @@ const Home = () => {
           <h2>Welcome to the given assignment !</h2>
           <p>Thank you for shortlisting me for the role of frontend developer intern</p>
           <div className='shopping'>
-            <span>Click here: </span> <Link><a to="/cartdetail">Shopping Cart</a></Link>
+            <span>Click here: </span> <Link to="/cartDetail">Shopping Cart</Link>
           </div>
         </div>
       </div>

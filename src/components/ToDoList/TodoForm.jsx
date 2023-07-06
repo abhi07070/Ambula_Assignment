@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 
 export const TodoForm = ({ addTodo }) => {
     const [value, setValue] = useState('');
-
     const handleSubmit = (e) => {
         // prevent default action
         e.preventDefault();
